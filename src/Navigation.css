@@ -1,0 +1,27 @@
+.flip {
+    display: inline-block;
+    animation: flip 3s infinite alternate;
+  }
+  @keyframes flip {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(180deg); }
+  }
+.link1:hover{
+text-decoration: underline;
+background-color: rgb(161, 160, 156);
+}
+
+.links {
+    animation: slideInRight 2s ease-out backwards;
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
