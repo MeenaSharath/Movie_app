@@ -29,7 +29,7 @@ const Movies = ({ movielink, mtype }) => {
               <Card.Img
                 variant="top"
                 src={imageUrl + item.backdrop_path}
-                style={{ height: '200px', objectFit: 'cover' }}
+                style={{ height: '190px', objectFit: 'cover' }}
               />
               <Card.Body>
                 <Card.Title>{mtype === 'comedy' ? item.name : item.title}</Card.Title>
